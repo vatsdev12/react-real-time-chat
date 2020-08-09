@@ -1,0 +1,15 @@
+*.log
+
+node_modules/
+*.log
+
+
+.env
+package-lock.json
+app.log/
+/.idea/
+/nbproject/private/
+/nbproject/
+/uploads/
+
+/uploads/*

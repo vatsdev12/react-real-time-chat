@@ -1,0 +1,211 @@
+/*!
+ * GenesisUI - Bootstrap 4 Admin Template
+ * @version v1.8.14
+ * @link https://genesisui.com
+ * Copyright (c) 2018 creativeLabs Łukasz Holeczek
+ * @license https://genesisui.com/license.html
+ */
+
+// Override Boostrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap source files
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Override core variables
+@import "core-variables";
+
+// Import core styles
+@import "core/core";
+
+// Import UI Kits
+@import "uikits/uikits";
+
+// Custom styles
+@import "custom";
+
+
+
+
+
+
+// table live match start 
+
+.custom-column table {
+    width: 100%;
+    color: #212529;
+    }
+    .custom-column table.custom_table {
+    text-transform: capitalize;
+    }
+    .custom-column table.custom_table tr th td {
+    padding-left: 0;
+    }
+    .custom-column table.custom_table tr td {
+    padding-left: 20px;
+    position: relative;
+    }
+    .custom-column .form-control {
+    text-transform: capitalize;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 4px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    }
+    .custom-column table.custom_table tr>td:first-child:before {
+    content: "-";
+    position: absolute;
+    left: 5px;
+    }
+    .custom-column .card {
+    text-transform: capitalize;
+    }
+    .custom-column .card input {
+    text-transform: none;
+    }
+    .card-columns .card {
+    margin-bottom: 0.5rem;
+    }
+    
+    .custom-column .card_columns>div>div{
+    display: flex;
+    margin-left: -5px;
+    margin-right: -5px;
+    }
+    .custom-column .card_columns>div {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+    .custom-column .card {
+    width: 25%;
+    margin: 0 5px;
+    height: fit-content;
+    }
+    .custom-column .card-body, .card-block {
+    padding: 0.8rem;
+    }
+    .custom-column .card_columns {
+    margin-left: -10px;
+    margin-right: -10px;
+    }
+    .custom-column .card {
+    background-color: #e8e8e8;
+    }
+    .custom-column .breadcrumb {
+    margin-bottom: 10px;
+    }
+    
+    .custom-column .card-header {
+    padding: 5px 15px;
+    }
+    
+    .custom-column .card-body {
+    padding: 5px 15px;
+    }
+    .custom-column .f_group .form-group {
+    margin-bottom: 0;
+    }
+    .custom-column .form-group {
+    margin-bottom: 5px;
+    display: flex;
+    }
+    .custom-column .h_card>div {
+    width: 100% !important;
+    margin: 0 0 10px;
+    }
+    .h_card {
+    margin: 0 5px;
+    width: 25%;
+    }
+    .custom-column label {
+    margin-bottom: 3px;
+    }
+    .custom-column .form-group>label {
+    width: 70%;
+    }
+    .live_match_status {
+    background: #fff;
+    margin: 0 -10px;
+    padding: 10px 0 0px;
+    }
+    
+    .live_match_status>div {
+    font-size: 16px;
+    display: inline-block;
+    background: #e8e8e8;
+    padding: 10px;
+    border-radius: 5px;
+    }
+    
+    .live_match_status>div>span {
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 5px;
+    display: inline-block;
+    }
+    
+    .live_match_status>div>span.verses {
+    background: #3e7474;
+    padding: 5px 8px;
+    border-radius: 100%;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+    }
+    @media (min-width: 576px){
+    .card-columns {
+    column-count: 4;
+    column-gap: 0.5rem;
+    }
+    }
+    .custom-column .card_first {
+    flex-grow: 2;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    }
+    .card_first_inner {
+    display: flex;
+    }
+    .custom-column .card_first_inner .card {
+    width: 50%;
+    }
+    .info_field {
+    margin: 20px 5px 0;
+    }
+    
+    @media (max-width : 1440px) {
+    .custom-column .form-control {
+    height: auto;
+    padding: 4px 4px;
+    font-size: 12px;
+    line-height: normal;
+    }
+    .custom-column .card_columns {
+    font-size: 12px;
+    }
+    .custom-column .card-body {
+    padding: 5px 7px;
+    }
+    select.form-control:not([size]):not([multiple]) {
+    height: fit-content;
+    }
+    }
+    // table live match end
